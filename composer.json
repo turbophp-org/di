@@ -1,0 +1,37 @@
+{
+  "name": "turbophp-org/di",
+  "description": "TurboPHP 框架依赖注入库，提供统一服务容器、自动绑定和依赖管理，方便模块化开发与解耦。",
+  "license": "Apache-2.0",
+  "keywords": [
+    "php",
+    "turbophp",
+    "framework",
+    "di",
+    "dependency-injection",
+    "container",
+    "service"
+  ],
+  "homepage": "https://turbophp.org",
+  "support": {
+    "issues": "https://github.com/turbophp-org/di/issues",
+    "source": "https://github.com/turbophp-org/di",
+    "docs": "https://turbophp.org/docs",
+    "pull-request": "https://github.com/turbophp-org/di/pulls"
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TurboPHP\\Di\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0-dev"
+    }
+  }
+}
